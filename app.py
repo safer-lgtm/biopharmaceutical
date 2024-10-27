@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-from models.batch_analysis import find_batch_indices, get_batch_data
+from batch_analysis import find_batch_indices, get_batch_data
 
 # Set page configuration
 st.set_page_config(page_title="Batch Analysis Dashboard", layout="centered", page_icon="📊")
