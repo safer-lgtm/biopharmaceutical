@@ -20,7 +20,7 @@ if uploaded_file is not None:
     # Sidebar options for operation, product, parameter, and graphic type
     selected_operation = st.sidebar.selectbox("Betrieb", ["Betrieb 1"])
     selected_product = st.sidebar.selectbox("Produkt", ["Produkt 1"])
-    selected_parameter = st.sidebar.selectbox("Parameter", ["Select Parameter", "Penicillin concentration (P:g/L)", "pH"])
+    selected_parameter = st.sidebar.selectbox("Parameter", ["Select Parameter", "Penicillin concentration(P:g/L)", "pH(pH:pH)"])
     selected_graphic = st.sidebar.selectbox("Grafik", ["Select Grafik", "Line Chart", "Control Chart"])
 
     # Main area filter options (only visible if a file is uploaded)
